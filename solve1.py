@@ -3,5 +3,8 @@ def solve1(numbers):
     answer = 0
     
     # 여기에 코드를 하십시오.
+    for i in numbers:
+        if i%3==0 and i%2!=0:
+            answer+=i
 
     return answer
